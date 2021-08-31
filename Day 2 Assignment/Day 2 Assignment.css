@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+.nav{
+    background-color: brown;
+    height: 65px;
+    width: 100%
+}
+.menus>li{
+    background-color:yellow;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    height: 65px;
+    width: 15%;
+    text-align: center;
+    line-height: 65px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 15px;
+}
+.menus>li:hover{
+    background-color: tomato;
+}
